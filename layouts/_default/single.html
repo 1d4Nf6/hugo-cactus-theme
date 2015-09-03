@@ -25,10 +25,6 @@
                 </section>
             </footer>
 
-            {{ if isset .Site.Params "disqusShortname" }}
-                {{ partial "disqus.html" . }}
-            {{ end }}
-
             {{ partial "latest-posts.html" . }}
             {{ partial "footer.html" . }}
         </section>
